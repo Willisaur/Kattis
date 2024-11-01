@@ -1,0 +1,1 @@
+[print('pangram'if(x:=set(input().lower()+' .,?!\'\"1234567890'))==(y:=set('abcdefghijklmnopqrstuvwxyz .,?!\'\"1234567890'))else'missing '+''.join(sorted(y.difference(x))))for i in range(int(input()))]#get code golfed
