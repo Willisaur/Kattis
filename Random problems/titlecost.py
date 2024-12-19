@@ -1,0 +1,1 @@
+print(min(len((c:=input().split())[0]),float(c[1])))
